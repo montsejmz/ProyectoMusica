@@ -11,19 +11,22 @@
 
     <ion-item style= "background-color:#D62828">
       
-      <ion-col item-start>
+      <ion-col item-start (click)="clickEImagen()">
         <img src="../assets/evolve3.webp">
       </ion-col>
       
-      <h2 ion-text color="light">Evolve</h2>
-      <p ion-text color="light" >Imagine Dragons</p>
+      <h2 ion-text color="light" (click)="clickETitulo()">Evolve</h2>
+      <p ion-text color="light" (click)="clickEArtista()">Imagine Dragons</p>
       <p ion-text color="light">2017</p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star-half"></ion-icon>
-
+      <ion-row (click)="clickEEstrellas()">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+  
+      </ion-row>
+      
 
 
     </ion-item>
@@ -35,18 +38,21 @@
 
     <ion-item style= "background-color: #003049">
       
-      <ion-col item-start>
+      <ion-col item-start (click)="clickXImagen()">
         <img src="../assets/x.jfif">
       </ion-col>
       
-      <h2 ion-text color="light" >X</h2>
-      <p ion-text color="light" >Ed Sheeran</p>
+      <h2 ion-text color="light" (click)="clickXTitulo()" >X</h2>
+      <p ion-text color="light" (click)="clickXArtista()">Ed Sheeran</p>
       <p ion-text color="light" >2014</p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="ios-star-outline"></ion-icon>
+      <ion-row (click)="clickXEstrellas()">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="ios-star-outline"></ion-icon>
+      </ion-row>
+      
 
 
 
@@ -56,21 +62,24 @@
 
   <ion-card >
 
-    <ion-item style= "background-color: #F77F00">
+    <ion-item  style= "background-color: #F77F00">
       
-      <ion-col item-start>
+      <ion-col item-start (click)="clickHImagen()">
         <img src="../assets/hozier.jpg">
       </ion-col>
       
-      <h2 ion-text color="light" >HOZIER</h2>
-      <p ion-text color="light" >Hozier</p>
+      <h2 ion-text color="light" (click)="clickHTitulo()">HOZIER</h2>
+      <p ion-text color="light" (click)="clickHArtista()" >Hozier</p>
       <p ion-text color="light" >2014</p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star-half"></ion-icon>
-
+      <ion-row (click)="clickHEstrellas()">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+  
+      </ion-row>
+      
 
 
     </ion-item>
@@ -81,19 +90,22 @@
 
     <ion-item style= "background-color: #6DAEDB">
       
-      <ion-col item-start>
+      <ion-col item-start (click)="clickXImagen()">
         <img src="../assets/cleopatra.jfif">
       </ion-col>
       
-      <h2 ion-text color="light" >Cleopatra</h2>
-      <p ion-text color="light" >The Lumineers</p>
+      <h2 ion-text color="light" (click)="clickCTitulo()">Cleopatra</h2>
+      <p ion-text color="light" (click)="clickCArtista()">The Lumineers</p>
       <p ion-text color="light" >2016</p>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star"></ion-icon>
-      <ion-icon name="star-half"></ion-icon>
-
+      <ion-row (click)="clickCEstrellas()">
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star"></ion-icon>
+        <ion-icon name="star-half"></ion-icon>
+  
+      </ion-row>
+      
 
 
     </ion-item>
