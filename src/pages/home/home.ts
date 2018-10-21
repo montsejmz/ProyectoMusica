@@ -15,16 +15,9 @@ export class HomePage {
   etit=EvolveTituloPage;
   eart=EvolveArtistaPage;
   eest=EvolveEstrellasPage;
-  cancionesE=[];
-
-  
 
   constructor(public navCtrl: NavController) {
-    
-    this.cancionesE=['Next to Me', 'I Dont Know Why', 'Whatever it Takes', 'Believer', 'Walking the Wire', 'Rise Up', 'Ill Make It Up to You', 'Yesterday', 'Mouth of the River', 'Thunfer', 'Start Over','Dancing in the Dark'];
-    
-  
-
+ 
   }
 
   clickEImagen()
