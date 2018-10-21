@@ -6,12 +6,20 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { EvolveImagenPage } from '../pages/evolve-imagen/evolve-imagen';
+import { EvolveArtistaPage } from '../pages/evolve-artista/evolve-artista';
+import { EvolveEstrellasPage } from '../pages/evolve-estrellas/evolve-estrellas';
+import { EvolveTituloPage } from '../pages/evolve-titulo/evolve-titulo';
 
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    EvolveImagenPage,
+    EvolveArtistaPage,
+    EvolveEstrellasPage,
+    EvolveTituloPage
     
   ],
   imports: [
@@ -21,7 +29,11 @@ import { HomePage } from '../pages/home/home';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    EvolveImagenPage,
+    EvolveArtistaPage,
+    EvolveEstrellasPage,
+    EvolveTituloPage
     
   ],
   providers: [
