@@ -10,6 +10,10 @@ import { EvolveImagenPage } from '../pages/evolve-imagen/evolve-imagen';
 import { EvolveArtistaPage } from '../pages/evolve-artista/evolve-artista';
 import { EvolveEstrellasPage } from '../pages/evolve-estrellas/evolve-estrellas';
 import { EvolveTituloPage } from '../pages/evolve-titulo/evolve-titulo';
+import { XartistaPage } from '../pages/xartista/xartista';
+import { XtituloPage } from '../pages/xtitulo/xtitulo';
+import { XestrellasPage } from '../pages/xestrellas/xestrellas';
+import { XimagenPage } from '../pages/ximagen/ximagen';
 
 
 @NgModule({
@@ -19,7 +23,11 @@ import { EvolveTituloPage } from '../pages/evolve-titulo/evolve-titulo';
     EvolveImagenPage,
     EvolveArtistaPage,
     EvolveEstrellasPage,
-    EvolveTituloPage
+    EvolveTituloPage,
+    XartistaPage,
+    XtituloPage,
+    XestrellasPage,
+    XimagenPage
     
   ],
   imports: [
@@ -33,7 +41,11 @@ import { EvolveTituloPage } from '../pages/evolve-titulo/evolve-titulo';
     EvolveImagenPage,
     EvolveArtistaPage,
     EvolveEstrellasPage,
-    EvolveTituloPage
+    EvolveTituloPage,
+    XartistaPage,
+    XtituloPage,
+    XestrellasPage,
+    XimagenPage
     
   ],
   providers: [
