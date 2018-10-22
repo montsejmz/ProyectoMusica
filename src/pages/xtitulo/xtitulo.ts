@@ -20,7 +20,7 @@ export class XtituloPage {
 
     this.cancionesX=['1. One', '2. Im a Mess', '3. Sing', '4. Dont', '5. Nina', '6. Photograph',
      '7. Bloodstream', '8. Tenerife Sea', '9. Runaway', '10. The Man', '11. Thinking Out Loud', '12. Afire Love',
-    '13. Take It Back'];
+    '13. Take It Back', '14. Shirtsleeves', '15. Even My Dad Does Sometimes'];
   }
 
   ionViewDidLoad() {
