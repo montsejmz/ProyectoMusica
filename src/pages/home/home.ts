@@ -8,6 +8,10 @@ import { XimagenPage } from '../ximagen/ximagen';
 import { XtituloPage } from '../xtitulo/xtitulo';
 import { XartistaPage } from '../xartista/xartista';
 import { XestrellasPage } from '../xestrellas/xestrellas';
+import { HimagenPage } from '../himagen/himagen';
+import { HartistaPage } from '../hartista/hartista';
+import { HtituloPage } from '../htitulo/htitulo';
+import { HestrellasPage } from '../hestrellas/hestrellas';
 
 
 @Component({
@@ -19,10 +23,16 @@ export class HomePage {
   etit=EvolveTituloPage;
   eart=EvolveArtistaPage;
   eest=EvolveEstrellasPage;
+
   Ximg= XimagenPage;
   Xtit=XtituloPage;
   Xart=XartistaPage;
   Xest=XestrellasPage;
+  
+  Himg =HimagenPage;
+  Hart=HartistaPage;
+  Htit=HtituloPage;
+  Hest=HestrellasPage;
 
   constructor(public navCtrl: NavController) {
  
@@ -72,6 +82,30 @@ export class HomePage {
   clickXEstrellas()
   {
     this.navCtrl.push(this.Xest);
+  
+  }
+
+  //Tercer album
+
+  clickHImagen()
+  {
+    this.navCtrl.push(this.Himg);
+  }
+
+  clickHArtista()
+  {
+    this.navCtrl.push(this.Hart);
+  }
+
+  clickHTitulo()
+  {
+    this.navCtrl.push(this.Htit);
+  
+  }
+
+  clickHEstrellas()
+  {
+    this.navCtrl.push(this.Hest);
   
   }
 

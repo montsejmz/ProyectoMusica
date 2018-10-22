@@ -14,6 +14,10 @@ import { XartistaPage } from '../pages/xartista/xartista';
 import { XtituloPage } from '../pages/xtitulo/xtitulo';
 import { XestrellasPage } from '../pages/xestrellas/xestrellas';
 import { XimagenPage } from '../pages/ximagen/ximagen';
+import { HimagenPage } from '../pages/himagen/himagen';
+import { HartistaPage } from '../pages/hartista/hartista';
+import { HtituloPage } from '../pages/htitulo/htitulo';
+import { HestrellasPage } from '../pages/hestrellas/hestrellas';
 
 
 @NgModule({
@@ -27,7 +31,11 @@ import { XimagenPage } from '../pages/ximagen/ximagen';
     XartistaPage,
     XtituloPage,
     XestrellasPage,
-    XimagenPage
+    XimagenPage,
+    HimagenPage,
+    HartistaPage,
+    HtituloPage,
+    HestrellasPage
     
   ],
   imports: [
@@ -45,7 +53,11 @@ import { XimagenPage } from '../pages/ximagen/ximagen';
     XartistaPage,
     XtituloPage,
     XestrellasPage,
-    XimagenPage
+    XimagenPage,
+    HimagenPage,
+    HartistaPage,
+    HtituloPage,
+    HestrellasPage
     
   ],
   providers: [
