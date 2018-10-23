@@ -12,6 +12,10 @@ import { HimagenPage } from '../himagen/himagen';
 import { HartistaPage } from '../hartista/hartista';
 import { HtituloPage } from '../htitulo/htitulo';
 import { HestrellasPage } from '../hestrellas/hestrellas';
+import { CimagenPage } from '../cimagen/cimagen';
+import { CartistasPage } from '../cartistas/cartistas';
+import { CtitulosPage } from '../ctitulos/ctitulos';
+import { CestrellasPage } from '../cestrellas/cestrellas';
 
 
 @Component({
@@ -33,6 +37,11 @@ export class HomePage {
   Hart=HartistaPage;
   Htit=HtituloPage;
   Hest=HestrellasPage;
+
+  Cimg=CimagenPage;
+  Cart=CartistasPage;
+  Ctit=CtitulosPage;
+  Cest=CestrellasPage;
 
   constructor(public navCtrl: NavController) {
  
@@ -109,5 +118,27 @@ export class HomePage {
   
   }
 
+  //Cuarto Album
+  clickCImagen()
+  {
+    this.navCtrl.push(this.Cimg);
+  }
+
+  clickCArtista()
+  {
+    this.navCtrl.push(this.Cart);
+  }
+
+  clickCTitulo()
+  {
+    this.navCtrl.push(this.Ctit);
+  
+  }
+
+  clickCEstrellas()
+  {
+    this.navCtrl.push(this.Cest);
+  
+  }
 
 }

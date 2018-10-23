@@ -18,6 +18,10 @@ import { HimagenPage } from '../pages/himagen/himagen';
 import { HartistaPage } from '../pages/hartista/hartista';
 import { HtituloPage } from '../pages/htitulo/htitulo';
 import { HestrellasPage } from '../pages/hestrellas/hestrellas';
+import { CestrellasPage } from '../pages/cestrellas/cestrellas';
+import { CartistasPage } from '../pages/cartistas/cartistas';
+import { CimagenPage } from '../pages/cimagen/cimagen';
+import { CtitulosPage } from '../pages/ctitulos/ctitulos';
 
 
 @NgModule({
@@ -35,7 +39,11 @@ import { HestrellasPage } from '../pages/hestrellas/hestrellas';
     HimagenPage,
     HartistaPage,
     HtituloPage,
-    HestrellasPage
+    HestrellasPage,
+    CestrellasPage,
+    CartistasPage,
+    CimagenPage,
+    CtitulosPage
     
   ],
   imports: [
@@ -57,7 +65,11 @@ import { HestrellasPage } from '../pages/hestrellas/hestrellas';
     HimagenPage,
     HartistaPage,
     HtituloPage,
-    HestrellasPage
+    HestrellasPage,
+    CestrellasPage,
+    CartistasPage,
+    CimagenPage,
+    CtitulosPage
     
   ],
   providers: [
